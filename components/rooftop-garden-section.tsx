@@ -13,7 +13,7 @@ export default function RooftopGardenSection() {
             alt: "Modern rooftop garden design with seating areas and container plantings",
           },
           {
-            src: "/Roof3.jpg?height=600&width=800&text=Rooftop+Garden+2",
+            src: "/Roof2.jpg?height=600&width=800&text=Rooftop+Garden+2",
             alt: "Urban rooftop garden with efficient irrigation system and lightweight planters",
           },
           {
