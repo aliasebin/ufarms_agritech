@@ -9,17 +9,10 @@ export default function LawnMaintenanceSection() {
         description="Achieve the perfect lawn with our comprehensive installation and maintenance services. We start with proper soil preparation and grading before installing premium grass varieties suited to your local climate and usage needs. Our ongoing maintenance programs keep your lawn lush, green, and healthy year-round with regular mowing, edging, fertilization, and pest control. Whether you're establishing a new lawn or revitalizing an existing one, our expert team delivers results that will make your neighbors green with envy."
         images={[
           {
-            src: "/lawn.jpg?height=600&width=800&text=Lawn+Maintenance+1",
-            alt: "Professional lawn installation with premium grass varieties",
-          },
-          {
             src: "/lawn2.jpg?height=600&width=800&text=Lawn+Maintenance+1",
             alt: "Professional lawn installation with premium grass varieties",
           },
-           {
-            src: "/lawn3.jpg?height=600&width=800&text=Lawn+Maintenance+1",
-            alt: "Professional lawn installation with premium grass varieties",
-          },
+          
           
         ]}
         icon={Scissors}
