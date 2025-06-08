@@ -12,9 +12,9 @@ export default function LandscapeDesignSection() {
             src: "/landscape.jpg?height=600&width=800&text=Landscape+Design+1",
             alt: "Professional landscape design with integrated irrigation system",
           },
-          {
-            src: "/Img5.jpeg?height=600&width=800&text=Landscape+Design+2",
-            alt: "Custom garden design with water features and smart irrigation",
+         {
+            src: "/LawnWide.jpg?height=600&width=800&text=Landscape+Design+1",
+            alt: "Professional landscape design with integrated irrigation system",
           },
 
         
