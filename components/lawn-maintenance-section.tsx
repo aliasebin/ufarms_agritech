@@ -12,14 +12,6 @@ export default function LawnMaintenanceSection() {
             src: "/Lawn.jpg?height=600&width=800&text=Lawn+Maintenance+1",
             alt: "Professional lawn installation with premium grass varieties",
           },
-          {
-            src: "/Lawn2.jpg?height=600&width=800&text=Lawn+Maintenance+2",
-            alt: "Regular lawn maintenance with professional equipment",
-          },
-          {
-            src: "/Lawn3.jpg?height=600&width=800&text=Lawn+Maintenance+3",
-            alt: "Healthy, lush lawn after professional maintenance service",
-          },
         ]}
         icon={Scissors}
         reverse={true}
