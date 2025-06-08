@@ -243,11 +243,7 @@ export default function Home() {
                     Gallery
                   </ScrollToSection>
                 </li>
-                <li>
-                  <ScrollToSection targetId="faq" className="text-gray-100 hover:text-white">
-                    FAQ
-                  </ScrollToSection>
-                </li>
+              
                 <li>
                   <ScrollToSection targetId="contact" className="text-gray-100 hover:text-white">
                     Contact
