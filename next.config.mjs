@@ -12,8 +12,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/UframsAgritech' : '',
-  assetPrefix: isProd ? '/UframsAgritech/' : '',
+  basePath: isProd ? '/ufarms_agritech' : '',
+  assetPrefix: isProd ? '/ufarms_agritech/' : '',
   trailingSlash: true,
 };
 

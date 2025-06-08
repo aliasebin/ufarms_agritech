@@ -9,6 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "postexport": "touch out/.nojekyll",
+    "start": "next start",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
