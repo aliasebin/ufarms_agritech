@@ -7,47 +7,90 @@ import { X } from "lucide-react"
 const galleryImages = [
   {
     id: 1,
-    src: "/img4.jpeg?height=400&width=600&text=Landscape+Irrigation",
+    src: "/img1.jpeg?height=400&width=600&text=Landscape+Irrigation",
     alt: "Smart irrigation system in action",
     category: "landscape",
     title: "Smart Lawn Irrigation",
   },
   {
     id: 2,
-    src: "/img3.jpeg?height=400&width=600&text=Drip+Irrigation",
+    src: "/img2.jpeg?height=400&width=600&text=Drip+Irrigation",
     alt: "Drip irrigation system",
     category: "drip",
     title: "Precision Drip Irrigation",
   },
   {
     id: 3,
-    src: "/img5.jpeg?height=400&width=600&text=Hydroponic+System",
+    src: "/img3.jpeg?height=400&width=600&text=Hydroponic+System",
     alt: "Hydroponic lettuce",
     category: "hydroponic",
     title: "Automated Hydroponics",
   },
   {
     id: 4,
-    src: "/img6.jpeg?height=400&width=600&text=Control+Panel",
+    src: "/img11.jpeg?height=400&width=600&text=Control+Panel",
     alt: "Control panel for irrigation",
     category: "automation",
     title: "Smart Control Panel",
   },
   {
     id: 5,
-    src: "/placeholder.svg?height=400&width=600&text=Garden+Irrigation",
+    src: "/img5.jpeg?height=400&width=600&text=Garden+Irrigation",
     alt: "Garden irrigation system",
     category: "landscape",
     title: "Garden Irrigation",
   },
   {
     id: 6,
-    src: "/placeholder.svg?height=400&width=600&text=Commercial+Farm",
+    src: "img6.jpeg?height=400&width=600&text=Commercial+Farm",
+    alt: "Commercial farm with drip",
+    category: "drip",
+    title: "Commercial Farm Irrigation",
+  },
+
+  {
+    id: 4,
+    src: "/img7.jpeg?height=400&width=600&text=Control+Panel",
+    alt: "Control panel for irrigation",
+    category: "automation",
+    title: "Smart Control Panel",
+  },
+  {
+    id: 5,
+    src: "/img8.jpeg?height=400&width=600&text=Garden+Irrigation",
+    alt: "Garden irrigation system",
+    category: "landscape",
+    title: "Garden Irrigation",
+  },
+  {
+    id: 6,
+    src: "img9.jpeg?height=400&width=600&text=Commercial+Farm",
     alt: "Commercial farm with drip",
     category: "drip",
     title: "Commercial Farm Irrigation",
   },
   
+   {
+    id: 4,
+    src: "/img10.jpeg?height=400&width=600&text=Control+Panel",
+    alt: "Control panel for irrigation",
+    category: "automation",
+    title: "Smart Control Panel",
+  },
+  {
+    id: 5,
+    src: "/LawnWide.jpg?height=400&width=600&text=Garden+Irrigation",
+    alt: "Garden irrigation system",
+    category: "landscape",
+    title: "Garden Irrigation",
+  },
+  {
+    id: 6,
+    src: "img12.jpeg?height=400&width=600&text=Commercial+Farm",
+    alt: "Commercial farm with drip",
+    category: "drip",
+    title: "Commercial Farm Irrigation",
+  },
 ]
 
 export default function Gallery() {

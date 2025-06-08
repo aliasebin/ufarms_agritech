@@ -9,7 +9,7 @@ export default function DripIrrigationSection() {
         description="Maximize your garden's health while minimizing water usage with our advanced drip irrigation systems. Our precision installations deliver water directly to plant roots, reducing waste and promoting deeper root growth. We integrate smart controllers and sensors that automatically adjust watering schedules based on weather conditions, soil moisture, and plant needs. Control everything through our user-friendly mobile app, allowing you to monitor and manage your garden's irrigation from anywhere. Our systems are customizable for any garden size, from small residential gardens to large commercial landscapes."
         images={[
           {
-            src: "/DripIrrigation.jpg?height=600&width=800&text=Drip+Irrigation+1",
+            src: "/Drip1.jpg?height=600&width=800&text=Drip+Irrigation+1",
             alt: "Precision drip irrigation system delivering water directly to plant roots",
           },
           {

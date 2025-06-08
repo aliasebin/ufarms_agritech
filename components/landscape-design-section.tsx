@@ -9,13 +9,14 @@ export default function LandscapeDesignSection() {
         description="Transform your outdoor space with our expert landscape design services that blend aesthetics with functionality. Our team of experienced designers creates custom plans tailored to your property, preferences, and local climate. We integrate smart irrigation systems directly into the design process, ensuring your landscape not only looks beautiful but is also water-efficient and sustainable. From initial concept to final installation, we handle every aspect of bringing your dream garden to life."
         images={[
           {
-            src: "/LandscapeDesign.jpg?height=600&width=800&text=Landscape+Design+1",
+            src: "/landscape.jpg?height=600&width=800&text=Landscape+Design+1",
             alt: "Professional landscape design with integrated irrigation system",
           },
           {
-            src: "/LandscapeDesign2.jpg?height=600&width=800&text=Landscape+Design+2",
+            src: "/Img5.jpeg?height=600&width=800&text=Landscape+Design+2",
             alt: "Custom garden design with water features and smart irrigation",
           },
+
         
         ]}
         icon={Flower}
