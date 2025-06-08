@@ -1,17 +1,20 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import Navbar from "@/components/navbar"
-import WhatsAppButton from "@/components/whatsapp-button"
-import BackToTop from "@/components/back-to-top"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/navbar";
+import WhatsAppButton from "@/components/whatsapp-button";
+import BackToTop from "@/components/back-to-top";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadataBase = new URL("https://ufarmsagritech.in");
 
 export const metadata: Metadata = {
-  title: "Ufarms.io | Smart Irrigation & IoT Farming Solutions",
+  metadataBase,
+  title: "Ufarms Agritech | Smart Irrigation & IoT Farming Solutions",
   description:
-    "Ufarms provides advanced sprinkler irrigation systems, lawn automation, IoT-enabled controls, and smart farming solutions. Our app-controlled, timer-based irrigation with smart sensors ensures optimal water usage and maximum crop yields.",
+    "Ufarms Agritech provides advanced sprinkler irrigation systems, lawn automation, IoT-enabled controls, and smart farming solutions. Our app-controlled, timer-based irrigation with smart sensors ensures optimal water usage and maximum crop yields.",
   keywords: [
     "sprinkler irrigation",
     "lawn automation",
@@ -32,9 +35,9 @@ export const metadata: Metadata = {
     "water efficiency",
     "farm automation",
   ],
-  authors: [{ name: "Ufarms.io" }],
-  creator: "Ufarms.io",
-  publisher: "Ufarms.io",
+  authors: [{ name: "Ufarms Agritech" }],
+  creator: "Ufarms Agritech",
+  publisher: "Ufarms Agritech",
   formatDetection: {
     email: false,
     address: false,
@@ -53,44 +56,45 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ufarms.io/",
-    title: "Ufarms.io | Smart Irrigation & IoT Farming Solutions",
+    url: "https://ufarmsagritech.in/",
+    title: "Ufarms Agritech | Smart Irrigation & IoT Farming Solutions",
     description:
       "Advanced sprinkler irrigation systems, lawn automation, IoT-enabled controls, and smart farming solutions for optimal water usage and maximum crop yields.",
-    siteName: "Ufarms.io",
+    siteName: "Ufarms Agritech",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ufarms.io - Smart Irrigation & IoT Farming Solutions",
+        alt: "Ufarms Agritech - Smart Irrigation & IoT Farming Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ufarms.io | Smart Irrigation & IoT Farming Solutions",
+    title: "Ufarms Agritech | Smart Irrigation & IoT Farming Solutions",
     description:
       "Advanced sprinkler irrigation systems, lawn automation, IoT-enabled controls, and smart farming solutions for optimal water usage and maximum crop yields.",
     images: ["/twitter-image.jpg"],
     creator: "@ufarmsio",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
   category: "technology",
   alternates: {
-    canonical: "https://ufarms.io",
+    canonical: "https://ufarmsagritech.in",
   },
-    generator: 'v0.dev'
-}
+  generator: "v0.dev",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
@@ -106,5 +110,5 @@ export default function RootLayout({
         <BackToTop />
       </body>
     </html>
-  )
+  );
 }
