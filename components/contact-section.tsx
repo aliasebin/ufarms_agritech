@@ -64,7 +64,7 @@ export default function ContactSection() {
             <div>
               <h4 className="font-medium text-gradient">Phone</h4>
               <p className="text-gray-600">
-                <a href="tel:15551234567" className="hover:text-blue-600 transition-colors">
+                <a href="tel:916238065959" className="hover:text-blue-600 transition-colors">
                   +91 6238065959
                 </a>
               </p>
